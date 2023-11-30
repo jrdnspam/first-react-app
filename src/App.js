@@ -1,5 +1,11 @@
+import React from 'react';
 import logo from './logo.svg';
 import './App.css';
+// ignore the above for now, we will get to them later
+
+import product, { numbers } from './math.js'
+
+console.log(numbers.reduce(product));
 
 function App() {
   return (
